@@ -7,7 +7,7 @@ width = 64; //[24:1:128]
 // Length of the tag
 length = 24; //[16:1:48]
 // Thickness of the tag
-thickness = 2; //[1:1:8]
+thickness = 1; //[1:0.5:8]
 
 /* [Options] */
 
