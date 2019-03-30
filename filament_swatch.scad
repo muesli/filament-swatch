@@ -104,11 +104,11 @@ difference() {
     }
 
     if (samples) {
-        translate([width-sample_width-1.5,1.5,thickness*0.33])
+        translate([width-sample_width-1.5,1.5,thickness*0.25])
             cube([sample_width,sample_width,thickness]);
         translate([width-sample_width-1.5,1.5+sample_width,thickness*0.5])
             cube([sample_width,sample_width,thickness]);
-        translate([width-sample_width-1.5,1.5+sample_width*2,thickness*0.66])
+        translate([width-sample_width-1.5,1.5+sample_width*2,thickness*0.75])
             cube([sample_width,sample_width,thickness]);
     }
 }
